@@ -3,20 +3,28 @@
 //  calculadora
 //
 //  Created by Isabel Yepes on 19/02/15.
-//  Copyright (c) 2015 Isabel Yepes. All rights reserved.
+//  Licensed by Creative Commons BY 3.0.
+//  You can copy but please attribute the work.
 //
 
 #import "AppDelegate.h"
+#import "memoryModel.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize calculatorMemoryModel;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //Create a model global instance.
+    calculatorMemoryModel = [[memoryModel alloc] init];
+    [calculatorMemoryModel init];
+    
     return YES;
 }
 

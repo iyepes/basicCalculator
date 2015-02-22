@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F844875B1A9853BF006B5DCB /* HCODismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F844875A1A9853BF006B5DCB /* HCODismissSegue.m */; };
 		F8FD7A241A968423006EF0AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A231A968423006EF0AC /* main.m */; };
 		F8FD7A271A968423006EF0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A261A968423006EF0AC /* AppDelegate.m */; };
 		F8FD7A2A1A968423006EF0AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A291A968423006EF0AC /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		F8FD7A2F1A968423006EF0AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FD7A2E1A968423006EF0AC /* Images.xcassets */; };
 		F8FD7A321A968423006EF0AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FD7A301A968423006EF0AC /* LaunchScreen.xib */; };
 		F8FD7A3E1A968423006EF0AC /* calculadoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A3D1A968423006EF0AC /* calculadoraTests.m */; };
+		F8FD7A491A9686DF006EF0AC /* memoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A481A9686DF006EF0AC /* memoryModel.m */; };
+		F8FD7A4C1A96B422006EF0AC /* GlobalParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A4B1A96B422006EF0AC /* GlobalParameters.m */; };
+		F8FD7A4F1A97C68D006EF0AC /* HCOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A4E1A97C68D006EF0AC /* HCOSettingsViewController.m */; };
+		F8FD7A531A97CBA2006EF0AC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = F8FD7A521A97CBA2006EF0AC /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F84487591A9853BF006B5DCB /* HCODismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCODismissSegue.h; sourceTree = "<group>"; };
+		F844875A1A9853BF006B5DCB /* HCODismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCODismissSegue.m; sourceTree = "<group>"; };
 		F8FD7A1E1A968423006EF0AC /* calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FD7A221A968423006EF0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8FD7A231A968423006EF0AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 		F8FD7A371A968423006EF0AC /* calculadoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculadoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FD7A3C1A968423006EF0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8FD7A3D1A968423006EF0AC /* calculadoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculadoraTests.m; sourceTree = "<group>"; };
+		F8FD7A471A9686DF006EF0AC /* memoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memoryModel.h; sourceTree = "<group>"; };
+		F8FD7A481A9686DF006EF0AC /* memoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memoryModel.m; sourceTree = "<group>"; };
+		F8FD7A4A1A96B422006EF0AC /* GlobalParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalParameters.h; sourceTree = "<group>"; };
+		F8FD7A4B1A96B422006EF0AC /* GlobalParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalParameters.m; sourceTree = "<group>"; };
+		F8FD7A4D1A97C68D006EF0AC /* HCOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCOSettingsViewController.h; sourceTree = "<group>"; };
+		F8FD7A4E1A97C68D006EF0AC /* HCOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCOSettingsViewController.m; sourceTree = "<group>"; };
+		F8FD7A521A97CBA2006EF0AC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +97,13 @@
 			children = (
 				F8FD7A251A968423006EF0AC /* AppDelegate.h */,
 				F8FD7A261A968423006EF0AC /* AppDelegate.m */,
-				F8FD7A281A968423006EF0AC /* ViewController.h */,
-				F8FD7A291A968423006EF0AC /* ViewController.m */,
+				F8FD7A511A97C6AD006EF0AC /* Controllers */,
 				F8FD7A2B1A968423006EF0AC /* Main.storyboard */,
 				F8FD7A2E1A968423006EF0AC /* Images.xcassets */,
 				F8FD7A301A968423006EF0AC /* LaunchScreen.xib */,
 				F8FD7A211A968423006EF0AC /* Supporting Files */,
+				F8FD7A501A97C69E006EF0AC /* Model */,
+				F8FD7A521A97CBA2006EF0AC /* readme.md */,
 			);
 			path = calculadora;
 			sourceTree = "<group>";
@@ -117,6 +132,30 @@
 				F8FD7A3C1A968423006EF0AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8FD7A501A97C69E006EF0AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8FD7A471A9686DF006EF0AC /* memoryModel.h */,
+				F8FD7A481A9686DF006EF0AC /* memoryModel.m */,
+				F8FD7A4A1A96B422006EF0AC /* GlobalParameters.h */,
+				F8FD7A4B1A96B422006EF0AC /* GlobalParameters.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F8FD7A511A97C6AD006EF0AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8FD7A281A968423006EF0AC /* ViewController.h */,
+				F8FD7A291A968423006EF0AC /* ViewController.m */,
+				F8FD7A4D1A97C68D006EF0AC /* HCOSettingsViewController.h */,
+				F8FD7A4E1A97C68D006EF0AC /* HCOSettingsViewController.m */,
+				F84487591A9853BF006B5DCB /* HCODismissSegue.h */,
+				F844875A1A9853BF006B5DCB /* HCODismissSegue.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FD7A2A1A968423006EF0AC /* ViewController.m in Sources */,
+				F8FD7A4C1A96B422006EF0AC /* GlobalParameters.m in Sources */,
+				F8FD7A4F1A97C68D006EF0AC /* HCOSettingsViewController.m in Sources */,
+				F844875B1A9853BF006B5DCB /* HCODismissSegue.m in Sources */,
 				F8FD7A271A968423006EF0AC /* AppDelegate.m in Sources */,
+				F8FD7A531A97CBA2006EF0AC /* readme.md in Sources */,
+				F8FD7A491A9686DF006EF0AC /* memoryModel.m in Sources */,
 				F8FD7A241A968423006EF0AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +456,7 @@
 				F8FD7A431A968423006EF0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FD7A441A968423006EF0AC /* Build configuration list for PBXNativeTarget "calculadoraTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +465,7 @@
 				F8FD7A461A968423006EF0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
