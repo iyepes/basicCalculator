@@ -1,8 +1,8 @@
-Simple calculator
+## Simple calculator
 
-//  Created by Isabel Yepes on 19/02/15.
-//  Licensed by Creative Commons BY 3.0.
-//  You can copy but please attribute the work.
+Created by Isabel Yepes on 19/02/15.
+Licensed by Creative Commons BY 3.0.
+You can copy but please attribute the work.
 
 Example of:
 - Model creation and instantiation.
@@ -12,9 +12,13 @@ Example of:
 - Custom buttons.
 - Sliders
 
-//WARNING
-//This calculator calculates only pair of values and gives results
-//using equal button. It doesn't validate operator's precedence
+WARNING
+This calculator calculates only pair of values and gives results
+using equal button. It doesn't validate operator's precedence
+
+## Demo
+
+![basicCalculator Demo](https://dl.dropboxusercontent.com/u/15652960/github/calculadora.gif)
 
 Icon credits
 
