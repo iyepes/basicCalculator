@@ -18,7 +18,7 @@ using equal button. It doesn't validate operator's precedence
 
 ## Demo
 
-![basicCalculator Demo](https://dl.dropboxusercontent.com/u/15652960/github/calculadora.gif)
+![basicCalculator Demo](https://github.com/iyepes/basicCalculator/blob/master/calculadora.gif)
 
 Icon credits
 
